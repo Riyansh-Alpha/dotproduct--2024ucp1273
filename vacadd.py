@@ -13,5 +13,14 @@ def dotProduct(l1, l2):
         
     return sum
 
-print(dotProduct([2,3], [3,4,5]))
+n=int(input("Enter vector size:"))
+print("Enter v1")
+for i in range(n):
+	a=float(input())
+	v1.append(a)
+print("Enter v2")
+for i in range(n):
+	a=float(input())
+	v2.append(a)
 
+print("Dot product: ",dotProduct(v1,v2))
